@@ -1,0 +1,125 @@
+|eight_bits_full_adder
+x[0] => one_bit_full_adder:x0.number_one
+x[1] => one_bit_full_adder:x1.number_one
+x[2] => one_bit_full_adder:x2.number_one
+x[3] => one_bit_full_adder:x3.number_one
+x[4] => one_bit_full_adder:x4.number_one
+x[5] => one_bit_full_adder:x5.number_one
+x[6] => one_bit_full_adder:x6.number_one
+x[7] => one_bit_full_adder:x7.number_one
+y[0] => one_bit_full_adder:x0.number_two
+y[1] => one_bit_full_adder:x1.number_two
+y[2] => one_bit_full_adder:x2.number_two
+y[3] => one_bit_full_adder:x3.number_two
+y[4] => one_bit_full_adder:x4.number_two
+y[5] => one_bit_full_adder:x5.number_two
+y[6] => one_bit_full_adder:x6.number_two
+y[7] => one_bit_full_adder:x7.number_two
+carry_in => one_bit_full_adder:x0.carry_in_component
+carry_out <= one_bit_full_adder:x7.result_component
+result[0] <= one_bit_full_adder:x0.carry_out_component
+result[1] <= one_bit_full_adder:x1.carry_out_component
+result[2] <= one_bit_full_adder:x2.carry_out_component
+result[3] <= one_bit_full_adder:x3.carry_out_component
+result[4] <= one_bit_full_adder:x4.carry_out_component
+result[5] <= one_bit_full_adder:x5.carry_out_component
+result[6] <= one_bit_full_adder:x6.carry_out_component
+result[7] <= one_bit_full_adder:x7.carry_out_component
+
+
+|eight_bits_full_adder|one_bit_full_adder:x0
+number_one => result_component.IN0
+number_one => carry_out_component.IN0
+number_two => result_component.IN1
+number_two => carry_out_component.IN1
+number_two => carry_out_component.IN0
+carry_in_component => result_component.IN1
+carry_in_component => carry_out_component.IN1
+carry_out_component <= carry_out_component.DB_MAX_OUTPUT_PORT_TYPE
+result_component <= result_component.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bits_full_adder|one_bit_full_adder:x1
+number_one => result_component.IN0
+number_one => carry_out_component.IN0
+number_two => result_component.IN1
+number_two => carry_out_component.IN1
+number_two => carry_out_component.IN0
+carry_in_component => result_component.IN1
+carry_in_component => carry_out_component.IN1
+carry_out_component <= carry_out_component.DB_MAX_OUTPUT_PORT_TYPE
+result_component <= result_component.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bits_full_adder|one_bit_full_adder:x2
+number_one => result_component.IN0
+number_one => carry_out_component.IN0
+number_two => result_component.IN1
+number_two => carry_out_component.IN1
+number_two => carry_out_component.IN0
+carry_in_component => result_component.IN1
+carry_in_component => carry_out_component.IN1
+carry_out_component <= carry_out_component.DB_MAX_OUTPUT_PORT_TYPE
+result_component <= result_component.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bits_full_adder|one_bit_full_adder:x3
+number_one => result_component.IN0
+number_one => carry_out_component.IN0
+number_two => result_component.IN1
+number_two => carry_out_component.IN1
+number_two => carry_out_component.IN0
+carry_in_component => result_component.IN1
+carry_in_component => carry_out_component.IN1
+carry_out_component <= carry_out_component.DB_MAX_OUTPUT_PORT_TYPE
+result_component <= result_component.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bits_full_adder|one_bit_full_adder:x4
+number_one => result_component.IN0
+number_one => carry_out_component.IN0
+number_two => result_component.IN1
+number_two => carry_out_component.IN1
+number_two => carry_out_component.IN0
+carry_in_component => result_component.IN1
+carry_in_component => carry_out_component.IN1
+carry_out_component <= carry_out_component.DB_MAX_OUTPUT_PORT_TYPE
+result_component <= result_component.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bits_full_adder|one_bit_full_adder:x5
+number_one => result_component.IN0
+number_one => carry_out_component.IN0
+number_two => result_component.IN1
+number_two => carry_out_component.IN1
+number_two => carry_out_component.IN0
+carry_in_component => result_component.IN1
+carry_in_component => carry_out_component.IN1
+carry_out_component <= carry_out_component.DB_MAX_OUTPUT_PORT_TYPE
+result_component <= result_component.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bits_full_adder|one_bit_full_adder:x6
+number_one => result_component.IN0
+number_one => carry_out_component.IN0
+number_two => result_component.IN1
+number_two => carry_out_component.IN1
+number_two => carry_out_component.IN0
+carry_in_component => result_component.IN1
+carry_in_component => carry_out_component.IN1
+carry_out_component <= carry_out_component.DB_MAX_OUTPUT_PORT_TYPE
+result_component <= result_component.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bits_full_adder|one_bit_full_adder:x7
+number_one => result_component.IN0
+number_one => carry_out_component.IN0
+number_two => result_component.IN1
+number_two => carry_out_component.IN1
+number_two => carry_out_component.IN0
+carry_in_component => result_component.IN1
+carry_in_component => carry_out_component.IN1
+carry_out_component <= carry_out_component.DB_MAX_OUTPUT_PORT_TYPE
+result_component <= result_component.DB_MAX_OUTPUT_PORT_TYPE
+
+

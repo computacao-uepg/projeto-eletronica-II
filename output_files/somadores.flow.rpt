@@ -1,0 +1,126 @@
+Flow report for somadores
+Fri Jun 22 22:22:45 2018
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Fri Jun 22 22:22:45 2018       ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Revision Name                      ; somadores                                   ;
+; Top-level Entity Name              ; eight_bits_full_adder                       ;
+; Family                             ; Cyclone III                                 ;
+; Total logic elements               ; 16 / 5,136 ( < 1 % )                        ;
+;     Total combinational functions  ; 16 / 5,136 ( < 1 % )                        ;
+;     Dedicated logic registers      ; 0 / 5,136 ( 0 % )                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 26 / 183 ( 14 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 423,936 ( 0 % )                         ;
+; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                              ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
+; Device                             ; EP3C5F256C6                                 ;
+; Timing Models                      ; Final                                       ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/22/2018 22:22:13 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; somadores           ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                              ;
++-------------------------------------+--------------------------------+---------------+-----------------------+----------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name           ; Section Id     ;
++-------------------------------------+--------------------------------+---------------+-----------------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 35490522559627.152971693300848 ; --            ; --                    ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --                    ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --                    ; --             ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; eight_bits_full_adder ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; eight_bits_full_adder ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; eight_bits_full_adder ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --                    ; --             ;
+; TOP_LEVEL_ENTITY                    ; eight_bits_full_adder          ; somadores     ; --                    ; --             ;
++-------------------------------------+--------------------------------+---------------+-----------------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4678 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:06     ; 1.0                     ; 5167 MB             ; 00:00:06                           ;
+; Assembler                 ; 00:00:00     ; 1.0                     ; 4572 MB             ; 00:00:00                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4670 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4576 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:14     ; --                      ; --                  ; 00:00:11                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-LHPCVNN  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-LHPCVNN  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-LHPCVNN  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-LHPCVNN  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-LHPCVNN  ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off somadores -c somadores
+quartus_fit --read_settings_files=off --write_settings_files=off somadores -c somadores
+quartus_asm --read_settings_files=off --write_settings_files=off somadores -c somadores
+quartus_sta somadores -c somadores
+quartus_eda --read_settings_files=off --write_settings_files=off somadores -c somadores
+
+
+

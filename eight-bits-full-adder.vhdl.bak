@@ -1,0 +1,10 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity eight_bits_full_adder is  							   -- Declaração da entidade
+	port( x, y      : in std_logic_vector(3 downto 0); 	-- Emtradas do somador
+			carry_in  : in std_logic;  							-- Vem um
+			carry_out : out std_logic;								-- vai um
+			result    : out std_logic_vector(3 downto 0);   -- Resultado da soma
+		  );
+end eight_bits_full_adder;

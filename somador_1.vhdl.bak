@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity somador_1 is
+	port( a, b, ve : in std_logic;
+			s, vs		: out std_logic
+		);
+end somador_1;
+
+architecture somador of somador_1 is
+
+begin
+
+	s  <= a xor b xor ve;								-- soma
+	vs <= (a and b) or (a and ve) or (b and ve)  -- vai um 
+end somador;
