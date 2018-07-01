@@ -13,7 +13,7 @@ end one_bit_full_adder;
 architecture adder of one_bit_full_adder is
 
 begin
-
+		
 	 result_component    <= number_one xor number_two xor carry_in_component;
 	 carry_out_component <= (number_one and number_two) 
 									or 

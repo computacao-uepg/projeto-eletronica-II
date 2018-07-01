@@ -1,6 +1,6 @@
 Flow report for somadores
-Fri Jun 22 22:22:45 2018
-Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+Wed Jun 27 23:00:21 2018
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -37,26 +37,26 @@ applicable agreement for further details.
 
 
 
-+----------------------------------------------------------------------------------+
-; Flow Summary                                                                     ;
-+------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Jun 22 22:22:45 2018       ;
-; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
-; Revision Name                      ; somadores                                   ;
-; Top-level Entity Name              ; eight_bits_full_adder                       ;
-; Family                             ; Cyclone III                                 ;
-; Total logic elements               ; 16 / 5,136 ( < 1 % )                        ;
-;     Total combinational functions  ; 16 / 5,136 ( < 1 % )                        ;
-;     Dedicated logic registers      ; 0 / 5,136 ( 0 % )                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 26 / 183 ( 14 % )                           ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 423,936 ( 0 % )                         ;
-; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                              ;
-; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
-; Device                             ; EP3C5F256C6                                 ;
-; Timing Models                      ; Final                                       ;
-+------------------------------------+---------------------------------------------+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Successful - Wed Jun 27 23:00:21 2018           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; somadores                                       ;
+; Top-level Entity Name              ; eight_bits_full_adder                           ;
+; Family                             ; Cyclone III                                     ;
+; Total logic elements               ; 16 / 5,136 ( < 1 % )                            ;
+;     Total combinational functions  ; 16 / 5,136 ( < 1 % )                            ;
+;     Dedicated logic registers      ; 0 / 5,136 ( 0 % )                               ;
+; Total registers                    ; 0                                               ;
+; Total pins                         ; 26 / 183 ( 14 % )                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0 / 423,936 ( 0 % )                             ;
+; Embedded Multiplier 9-bit elements ; 0 / 46 ( 0 % )                                  ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                   ;
+; Device                             ; EP3C5F256C6                                     ;
+; Timing Models                      ; Final                                           ;
++------------------------------------+-------------------------------------------------+
 
 
 +-----------------------------------------+
@@ -64,26 +64,27 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/22/2018 22:22:13 ;
+; Start date & time ; 06/27/2018 23:00:06 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; somadores           ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                              ;
-+-------------------------------------+--------------------------------+---------------+-----------------------+----------------+
-; Assignment Name                     ; Value                          ; Default Value ; Entity Name           ; Section Id     ;
-+-------------------------------------+--------------------------------+---------------+-----------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 35490522559627.152971693300848 ; --            ; --                    ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --                    ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --                    ; --             ;
-; PARTITION_COLOR                     ; 16764057                       ; --            ; eight_bits_full_adder ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; eight_bits_full_adder ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; eight_bits_full_adder ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --                    ; --             ;
-; TOP_LEVEL_ENTITY                    ; eight_bits_full_adder          ; somadores     ; --                    ; --             ;
-+-------------------------------------+--------------------------------+---------------+-----------------------+----------------+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                         ;
++-------------------------------------+-------------------------------------------+---------------+-----------------------+----------------+
+; Assignment Name                     ; Value                                     ; Default Value ; Entity Name           ; Section Id     ;
++-------------------------------------+-------------------------------------------+---------------+-----------------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 35490522559627.153015120512216            ; --            ; --                    ; --             ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR       ; C:\altera\13.0sp1\modelsim_ase\win32aloem ; --            ; --                    ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                      ; --            ; --                    ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                    ; <None>        ; --                    ; --             ;
+; PARTITION_COLOR                     ; 16764057                                  ; --            ; eight_bits_full_adder ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                     ; --            ; eight_bits_full_adder ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                    ; --            ; eight_bits_full_adder ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                              ; --            ; --                    ; --             ;
+; TOP_LEVEL_ENTITY                    ; eight_bits_full_adder                     ; somadores     ; --                    ; --             ;
++-------------------------------------+-------------------------------------------+---------------+-----------------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -91,12 +92,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4678 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:06     ; 1.0                     ; 5167 MB             ; 00:00:06                           ;
-; Assembler                 ; 00:00:00     ; 1.0                     ; 4572 MB             ; 00:00:00                           ;
-; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4670 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4576 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:14     ; --                      ; --                  ; 00:00:11                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4637 MB             ; 00:00:02                           ;
+; Fitter                    ; 00:00:06     ; 1.0                     ; 4880 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4556 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4598 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:12     ; --                      ; --                  ; 00:00:11                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
